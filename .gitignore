@@ -1,0 +1,8 @@
+#vim backup/undo files etc.
+*~
+#latex auxiliary files etc.
+*.log
+*.aux
+*.synctex.gz
+*.toc
+*.out

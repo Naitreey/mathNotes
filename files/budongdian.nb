@@ -1,0 +1,162 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 9.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[      4958,        152]
+NotebookOptionsPosition[      4642,        136]
+NotebookOutlinePosition[      4985,        151]
+CellTagsIndexPosition[      4942,        148]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"BezierCurve", "[", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"2", ",", "3"}], "}"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"3.5", ",", "4"}], "}"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"5", ",", "3.5"}], "}"}]}], "}"}], "]"}], ",", "Dashed", ",", 
+     RowBox[{"Line", "[", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"2", ",", "0"}], "}"}], ",", 
+          RowBox[{"{", 
+           RowBox[{"2", ",", "6"}], "}"}]}], "}"}], ",", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"0", ",", "2"}], "}"}], ",", 
+          RowBox[{"{", 
+           RowBox[{"6", ",", "2"}], "}"}]}], "}"}], ",", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"5", ",", "0"}], "}"}], ",", 
+          RowBox[{"{", 
+           RowBox[{"5", ",", "6"}], "}"}]}], "}"}], ",", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"0", ",", "5"}], "}"}], ",", 
+          RowBox[{"{", 
+           RowBox[{"6", ",", "5"}], "}"}]}], "}"}]}], "}"}], "]"}], ",", 
+     "Blue", ",", 
+     RowBox[{"Line", "[", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"3.614", ",", "0"}], "}"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"3.614", ",", "3.638"}], "}"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"0", ",", "3.638"}], "}"}]}], "}"}], "]"}]}], "}"}], ",", 
+   RowBox[{"Axes", "\[Rule]", "True"}], ",", 
+   RowBox[{"AxesOrigin", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{"0", ",", "0"}], "}"}]}], ",", 
+   RowBox[{"PlotRange", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"0", ",", "6.5"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"0", ",", "6.5"}], "}"}]}], "}"}]}], ",", 
+   RowBox[{"Ticks", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"2", ",", "a"}], "}"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"3.614", ",", "x"}], "}"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"5", ",", "b"}], "}"}]}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"2", ",", "a"}], "}"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"3.638", ",", 
+          RowBox[{"TraditionalForm", "[", 
+           RowBox[{"f", "[", "x", "]"}], "]"}]}], "}"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"5", ",", "b"}], "}"}]}], "}"}]}], "}"}]}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.618789388694152*^9, 3.618789416571878*^9}, {
+   3.618789447644233*^9, 3.618789453644781*^9}, {3.6187894895230494`*^9, 
+   3.6187895434037223`*^9}, {3.618789576937986*^9, 3.6187898058646746`*^9}, {
+   3.6187898519624386`*^9, 3.6187898847775497`*^9}, 3.6187899421730185`*^9, {
+   3.618789973871038*^9, 3.6187900224536047`*^9}, {3.6187900535501785`*^9, 
+   3.6187900928818145`*^9}, {3.618790166255006*^9, 3.618790455008821*^9}, {
+   3.618790498575431*^9, 3.6187905029351654`*^9}}],
+
+Cell[BoxData[
+ GraphicsBox[{BezierCurveBox[{{2, 3}, {3.5, 4}, {5, 3.5}}], 
+   {Dashing[{Small, Small}], 
+    LineBox[{{{2, 0}, {2, 6}}, {{0, 2}, {6, 2}}, {{5, 0}, {5, 6}}, {{0, 5}, {
+     6, 5}}}], 
+    {RGBColor[0, 0, 1], LineBox[{{3.614, 0}, {3.614, 3.638}, {0, 3.638}}]}}},
+  Axes->True,
+  AxesOrigin->{0, 0},
+  PlotRange->{{0, 6.5}, {0, 6.5}},
+  Ticks->{{{2, 
+      FormBox["a", TraditionalForm]}, {3.614, 
+      FormBox["x", TraditionalForm]}, {5, 
+      FormBox["b", TraditionalForm]}}, {{2, 
+      FormBox["a", TraditionalForm]}, {3.638, 
+      FormBox[
+       RowBox[{"f", "(", "x", ")"}], TraditionalForm]}, {5, 
+      FormBox["b", TraditionalForm]}}}]], "Output",
+ CellChangeTimes->{
+  3.6187899425168943`*^9, {3.618789977621296*^9, 3.6187900246725693`*^9}, 
+   3.618790093647575*^9, {3.618790222916644*^9, 3.618790251778714*^9}, {
+   3.618790408457461*^9, 3.6187904555088487`*^9}, 3.6187905037789583`*^9}]
+}, Open  ]]
+},
+WindowSize->{707, 544},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"9.0 for Microsoft Windows (64-bit) (November 20, 2012)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[579, 22, 3128, 89, 221, "Input"],
+Cell[3710, 113, 916, 20, 491, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
